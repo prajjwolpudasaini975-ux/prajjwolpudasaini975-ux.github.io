@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prajjwol Pudasaini on the beauty trap in Power BI — when polished dashboards look great but fail to tell a story.">
+  <title>The Beauty Trap in Power BI | Prajjwol Pudasaini</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="Homepage">
+        <span class="brand-mark">PP</span>
+        <span class="brand-text">Prajjwol Pudasaini</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="../index.html#portfolio">Portfolio</a>
+        <a href="../about.html">About</a>
+        <a href="../index.html#github">GitHub</a>
+        <a href="../professional-experience.html">Experience</a>
+        <a href="../blog.html">Blog</a>
+        <a href="../education.html">Education</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section article-hero">
+        <div class="article-shell reveal is-visible">
+          <p class="eyebrow">April 2026 &nbsp;·&nbsp; Power BI</p>
+          <h1>The Beauty Trap in Power BI</h1>
+          <p class="article-lead">
+            When I started learning Power BI, I thought a stunning layout meant a job well done.
+            I am only recently realising it did not.
+          </p>
+        </div>
+      </section>
+
+      <section class="section article-layout">
+        <article class="article-body reveal is-visible">
+
+          <p>
+            When I started learning Power BI, I was genuinely amazed by how beautiful a bunch of charts could look
+            sitting together on a single canvas. Customized logos for KPIs, matching colour palettes, polished themes,
+            and my personal favourite, navigation buttons, all felt like magic. I would spend hours experimenting with
+            design features, and the moment I landed on a layout that looked visually stunning, I would lean back and
+            think, "job done."
+          </p>
+
+          <p>
+            I am only recently realising it was not.
+          </p>
+
+          <p style="text-align: center; color: var(--muted); letter-spacing: 0.3em;">· · ·</p>
+
+          <p>
+            Somewhere in that process, I had quietly forgotten what Power BI actually is. It is a data visualisation
+            and storytelling platform, not a design software for charts. Visual aesthetics is one small piece of a much
+            bigger picture: helping people make evidence-based decisions. And that is a lesson I am still learning to
+            apply every time I open a new report.
+          </p>
+
+          <h3 style="margin: 0.5rem 0; color: var(--ink);">How I Think We Got Here</h3>
+
+          <p>
+            I noticed it first by scrolling LinkedIn. Dashboard makeover trends, design templates being sold as digital
+            products, side-by-side "before and after" posts where the "after" is just the same data with a darker theme
+            and rounded corners. There is an entire little economy built around making Power BI reports look impressive
+            in a screenshot, and I will be honest, I was absorbing all of it without questioning it.
+          </p>
+
+          <p>
+            I get the appeal. A polished dashboard photographs well. It gets likes. It signals craft. And when you are
+            learning, those signals feel like proof you are getting good at this. But the more I sit with it, the more
+            I wonder if the audience for our dashboards has slowly shifted, from the decision-makers who actually use
+            them, to the strangers who scroll past them.
+          </p>
+
+          <h3 style="margin: 0.5rem 0; color: var(--ink);">What I Am Starting to Notice</h3>
+
+          <p>
+            When I go back and look at some of my own dashboards now, and a lot of the ones I see shared online, I keep
+            running into the same thing: when you actually try to extract a story from them, the dots do not quite connect.
+          </p>
+
+          <p>
+            I will often spot two different charts giving the same insight, just dressed differently. A bar chart showing
+            sales by region, and right next to it, a donut chart showing the same regional split. It looks rich at first
+            glance, but it is really just redundancy in nicer clothes.
+          </p>
+
+          <p>
+            I also notice that the next chart rarely takes you one step deeper than the one before it. A good dashboard
+            should drill down. You start with the headline, then peel back a layer to ask why, then another to ask where
+            exactly. What I keep building, and seeing, instead is a collection of charts that each say something
+            interesting on their own, but never build on each other. The visuals are there. The thin line of connection
+            that turns them into a sequential story is what is missing.
+          </p>
+
+          <p>
+            The result is a dashboard that looks like it should tell you something profound but leaves you with the same
+            surface-level understanding you walked in with.
+          </p>
+
+          <h3 style="margin: 0.5rem 0; color: var(--ink);">A Quick Comparison</h3>
+
+          <p>
+            <strong style="color: var(--ink);">Dashboard A: pretty, but the dots do not connect.</strong><br>
+            Four colourful KPI cards. A bar chart of sales by region, sitting next to a donut chart of, well, sales by
+            region. Then a horizontal bar of top products, next to a treemap of the same products. Every individual chart
+            looks clean. But ask it a question — why is revenue down — and it has no answer. The charts decorate the data.
+            They do not interrogate it.
+          </p>
+
+          <img src="../assets/blog/dashboard-a.png" alt="Dashboard A — four KPI cards with redundant regional and product charts that look polished but repeat the same data in different shapes" style="width: 100%; border-radius: 12px; margin: 0.5rem 0 1.25rem;">
+
+          <p>
+            <strong style="color: var(--ink);">Dashboard B: plainer, but it actually tells a story.</strong><br>
+            Same kind of data. But this one starts with a headline, "revenue dipped 8.4%", then asks the next obvious
+            question and answers it, "the West region drove almost all of it", then drills one level deeper, "the Gamma
+            product line collapsed, likely from a competitor launch." Three visuals, three layers, one continuous thought.
+          </p>
+
+          <img src="../assets/blog/dashboard-b.png" alt="Dashboard B — three-step drill-down from revenue headline to regional drop to product-line cause, each chart going one layer deeper" style="width: 100%; border-radius: 12px; margin: 0.5rem 0 1.25rem;">
+
+          <p>
+            Dashboard A is the kind I would have proudly screenshotted a few months ago. Dashboard B is the one I am
+            trying to build now, the one a manager could actually open on a Monday morning and figure out what to do next.
+            The takeaway I am sitting with is that B does not have to be ugly. It just should not prioritise prettiness
+            over progression.
+          </p>
+
+          <h3 style="margin: 0.5rem 0; color: var(--ink);">The Shift I Am Trying to Make</h3>
+
+          <p>
+            I am starting to think of a Power BI dashboard as a storytelling platform, and like any good story, it should
+            let the reader drill down into the details that matter. Aesthetics is the typography of that story. They make
+            it readable, comfortable, even pleasant. But typography is not the story. Plot is.
+          </p>
+
+          <p>
+            I am learning that the dashboards worth building are not the ones that make someone say, "wow, that is
+            beautiful." They are the ones that make someone say, "oh, so that is why."
+          </p>
+
+          <h3 style="margin: 0.5rem 0; color: var(--ink);">Closing Thought</h3>
+
+          <p>
+            So the next time I finish a dashboard, and it looks gorgeous, I am going to try asking myself one more
+            question before calling it done: if I stripped away the colours, the icons, and the theme, would the story
+            still hold together?
+          </p>
+
+          <p>
+            Because if the answer is no, I did not build a dashboard. I built a poster. And I am slowly learning
+            the difference.
+          </p>
+
+          <p style="text-align: center; color: var(--muted); letter-spacing: 0.3em;">· · ·</p>
+
+        </article>
+
+        <aside class="article-sidebar reveal is-visible">
+          <div class="article-note">
+            <p class="card-label">Key Idea</p>
+            <h3>Aesthetics is the typography, not the story.</h3>
+            <p>A polished dashboard that cannot answer "why is revenue down?" is a poster, not a decision-making tool.</p>
+          </div>
+          <div class="article-note">
+            <p class="card-label">Key Idea</p>
+            <h3>Each chart should go one layer deeper than the last.</h3>
+            <p>The goal is a dashboard someone can open on a Monday morning and know what to do next.</p>
+          </div>
+          <div class="article-note">
+            <p class="card-label">Back to Blog</p>
+            <a class="text-link" href="../blog.html">Browse all posts</a>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Prajjwol Pudasaini. Built for thoughtful analytics and better opportunities.</p>
+    </footer>
+  </div>
+
+  <script src="../script.js"></script>
+</body>
+</html>
