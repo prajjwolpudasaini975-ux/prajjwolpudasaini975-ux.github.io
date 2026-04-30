@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prajjwol Pudasaini's personal portfolio website featuring data analytics projects, GitHub work, professional journey, and blog posts.">
+  <title>Prajjwol Pudasaini | Data Analytics Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Homepage">
+        <span class="brand-mark">PP</span>
+        <span class="brand-text">Prajjwol Pudasaini</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="#portfolio">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="#github">GitHub</a>
+        <a href="professional-experience.html">Experience</a>
+        <a href="blog.html">Blog</a>
+        <a href="education.html">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Data Analyst | Storyteller | Problem Solver</p>
+          <h1>I turn data into business insight, predictive models, and portfolio-ready analytics work.</h1>
+          <p class="hero-text">
+            I build practical analytics projects across machine learning, BI dashboards, and business reporting.
+            This site brings together my GitHub work, project case studies, and the learning journey behind them.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#portfolio">View My Work</a>
+            <a class="button button-secondary" href="#contact"> Hire Me</a>
+          </div>
+          <ul class="hero-metrics" aria-label="Key career highlights">
+            <li>
+              <strong>3 public repos</strong>
+              <span>Featured from GitHub</span>
+            </li>
+            <li>
+              <strong>Python | R | Power BI</strong>
+              <span>Analytics stack</span>
+            </li>
+            <li>
+              <strong>ML + BI focus</strong>
+              <span>Decision-oriented analysis</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel reveal">
+          <div class="profile-card">
+            <p class="card-label">About Me</p>
+            <h2>Finance professional turned data analyst, with a passion for evidence-based decision-making.</h2>
+            <p>
+              My toolkit runs across Python, R, SQL, and Power BI. My work lives between financial modelling,
+              machine learning, and visualisation — shaped by nearly four years in investment operations and now
+              an MSc in Business Data Analytics at Bangor University.
+            </p>
+            <div class="profile-links">
+              <a href="https://github.com/prajjwolpudasaini975-ux" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/prajjwol-pudasaini/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="mailto:prajjwolpudasaini975@gmail.com">Email</a>
+            </div>
+            <div style="margin-top: 1rem;">
+              <a class="button button-primary" href="about.html">Read More About Me</a>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="value-strip section reveal">
+        <div class="value-card">
+          <p class="card-label">What I Bring</p>
+          <h3>Business context, not just dashboards.</h3>
+          <p>I focus on practical analytics that help teams prioritize, forecast, and improve outcomes.</p>
+        </div>
+        <div class="value-card">
+          <p class="card-label">How I Work</p>
+          <h3>Clean thinking and repeatable systems.</h3>
+          <p>From SQL queries to Python notebooks, I document assumptions and build work others can trust.</p>
+        </div>
+        <div class="value-card">
+          <p class="card-label">Why This Site</p>
+          <h3>A living portfolio with proof.</h3>
+          <p>Projects, GitHub activity, writing, and growth milestones all live together in one professional home.</p>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Featured Portfolio</p>
+          <h2>Real GitHub projects presented as hiring-facing analytics case studies.</h2>
+          <p>
+            These projects are pulled from my public GitHub work and framed to highlight methodology, tools,
+            and business relevance for recruiters and hiring managers.
+          </p>
+        </div>
+
+        <div class="filter-bar reveal" role="tablist" aria-label="Project filters">
+          <button class="filter-chip active" data-filter="all">All</button>
+          <button class="filter-chip" data-filter="dashboard">Dashboards</button>
+          <button class="filter-chip" data-filter="python">Python</button>
+          <button class="filter-chip" data-filter="finance">Finance</button>
+          <button class="filter-chip" data-filter="storytelling">Storytelling</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="python dashboard storytelling">
+            <p class="project-tag">R | Power BI | Machine Learning</p>
+            <h3>Customer Churn Prediction and Segmentation</h3>
+            <p>
+              Built an end-to-end predictive analytics workflow combining a decision tree model, K-means clustering,
+              and a Power BI dashboard to support business decision-making and customer insight discovery. I am getting
+              good at this these days. I am willing to explore more on this section of my learning with AI.
+            </p>
+            <ul class="project-meta">
+              <li>R</li>
+              <li>Power BI</li>
+              <li>Decision Tree</li>
+            </ul>
+            <a href="projects/customer-churn.html" aria-label="Open Customer Churn Prediction and Segmentation project page">View Project</a>
+          </article>
+
+          <article class="project-card reveal" data-category="python finance storytelling">
+            <p class="project-tag">Python | Credit Risk | Quant Analysis</p>
+            <h3>Credit Default Probability with Merton Model</h3>
+            <p>
+              Modeled default probability for Ford and General Motors using the Merton and Black-Scholes frameworks,
+              translating financial theory into a practical credit risk analysis project.
+            </p>
+            <ul class="project-meta">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>SciPy</li>
+            </ul>
+            <a href="projects/credit-default.html" aria-label="Open Credit Default Probability with Merton Model project page">View Project</a>
+          </article>
+
+          <article class="project-card reveal" data-category="dashboard storytelling">
+            <p class="project-tag">Retail Analytics | BI | Campaign Insight</p>
+            <h3>Retail Coffee Shop Revenue Analysis</h3>
+            <p>
+              Structured retail data into dimension-focused tables and built revenue-centered outputs designed to support
+              marketing decisions and customer-driven reporting.
+            </p>
+            <ul class="project-meta">
+              <li>Retail Data</li>
+              <li>Visualization</li>
+              <li>Business Reporting</li>
+            </ul>
+            <a href="projects/retail-coffee-shop.html" aria-label="Open Retail Coffee Shop Revenue Analysis project page">View Project</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="github" class="section github-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">GitHub Snapshot</p>
+          <h2>Code, consistency, and curiosity made visible.</h2>
+          <p>
+            My public GitHub currently highlights focused analytics work across predictive modeling, finance,
+            business intelligence, and reporting-oriented data projects.
+          </p>
+        </div>
+
+        <div class="github-layout">
+          <div class="github-summary reveal">
+            <p class="card-label">Profile Overview</p>
+            <h3>@prajjwolpudasaini975-ux</h3>
+            <p>
+              I use GitHub to publish practical analytics projects that show how I approach modeling,
+              dashboarding, and business-focused analysis in public.
+            </p>
+            <div class="github-stats">
+              <div>
+                <strong>3</strong>
+                <span>Public repos</span>
+              </div>
+              <div>
+                <strong>2025-2026</strong>
+                <span>Active project window</span>
+              </div>
+              <div>
+                <strong>Analytics</strong>
+                <span>Portfolio focus</span>
+              </div>
+            </div>
+            <a class="text-link" href="https://github.com/prajjwolpudasaini975-ux" target="_blank" rel="noreferrer">Visit GitHub profile</a>
+          </div>
+
+          <div class="repo-list">
+            <article class="repo-card reveal">
+              <h3>Customer_Churn_Prediction_A_case_of_SIM_company</h3>
+              <p>End-to-end predictive analytics workflow using decision trees, clustering, and a Power BI reporting layer.</p>
+              <span>R | Power BI | Predictive Analytics</span>
+            </article>
+            <article class="repo-card reveal">
+              <h3>Merton-s-Model-of-Credit-Default-Probability-Ford</h3>
+              <p>Credit risk analysis applying structural finance models to estimate probability of default for major automakers.</p>
+              <span>Python | Credit Risk | Quant Finance</span>
+            </article>
+            <article class="repo-card reveal">
+              <h3>Retail_Coffee_Shop_Project</h3>
+              <p>Retail analytics project focused on dimensional data design, revenue analysis, and marketing-oriented reporting.</p>
+              <span>BI | Revenue Analysis | Visualization</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Professional Experience</p>
+          <h2>Investment operations, reporting, and client-facing work shaped how I solve problems with data.</h2>
+          <p>
+            I’ve worked across fund accounting, portfolio support, client service, and reporting improvement.
+            The full page expands these roles into a cleaner, recruiter-friendly experience story.
+          </p>
+        </div>
+
+        <div class="experience-layout">
+          <aside class="experience-panel reveal">
+            <div class="experience-visual">
+              <img src="assets/experience-analytics.svg" alt="Decorative analytics dashboard illustration">
+            </div>
+            <div class="experience-highlights">
+              <p class="card-label">Preview</p>
+              <h3>4+ years across investment operations and portfolio support.</h3>
+              <ul class="experience-stat-list">
+                <li>
+                  <strong>GBP 14.70M AUM</strong>
+                  <span>Mutual fund accounting exposure</span>
+                </li>
+                <li>
+                  <strong>50% faster</strong>
+                  <span>Report preparation after automation improvements</span>
+                </li>
+                <li>
+                  <strong>80% satisfaction</strong>
+                  <span>Customer enquiry support performance</span>
+                </li>
+              </ul>
+              <div class="experience-actions">
+                <a class="button button-primary" href="professional-experience.html">View Experience Page</a>
+                <a class="button button-secondary" href="resume.pdf" target="_blank" rel="noreferrer">Open Resume PDF</a>
+              </div>
+            </div>
+          </aside>
+
+          <div class="experience-timeline">
+            <article class="experience-card reveal">
+              <div class="experience-card-head">
+                <span class="timeline-year">Sep 2021 - Aug 2025</span>
+                <img src="assets/experience-operations.svg" alt="Decorative operations workflow illustration">
+              </div>
+              <div class="experience-copy">
+                <p class="project-tag">Nabil Investment Banking Limited</p>
+                <h3>Mutual Fund Operations Associate</h3>
+                <p>
+                  Managed fund accounting, regulatory reporting, and day-to-day operational support for mutual fund schemes.
+                </p>
+                <ul class="experience-points">
+                  <li>Handled accounting for schemes covering approximately GBP 14.70 million in assets under management.</li>
+                  <li>Improved reporting quality through automation, raising accuracy by 40% and reducing preparation time by 50%.</li>
+                  <li>Supported client enquiries and internal coordination in a high-accountability investment setting.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="experience-card reveal">
+              <div class="experience-card-head">
+                <span class="timeline-year">Sep 2020 - Dec 2020</span>
+                <img src="assets/experience-operations.svg" alt="Decorative portfolio support illustration">
+              </div>
+              <div class="experience-copy">
+                <p class="project-tag">Nabil Investment Banking Limited</p>
+                <h3>Portfolio Intern</h3>
+                <p>
+                  Built early experience in reconciliations, registrar coordination, and client portfolio operations.
+                </p>
+                <ul class="experience-points">
+                  <li>Reconciled cash and stock balances for 100 clients and supported cleaner reporting workflows.</li>
+                  <li>Worked with registrars and legal documentation while helping promote financial products.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Writing & Notes</p>
+          <h2>Short essays on dashboards, portfolio storytelling, and learning analytics in public.</h2>
+          <p>
+            These posts are now connected to dedicated pages so the site shows not just projects, but how I think,
+            communicate, and reflect on the work behind them.
+          </p>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card reveal">
+            <p class="blog-date">April 2026</p>
+            <h3>My Journey So Far: From Reconciling Books to Reading Patterns</h3>
+            <p>How four years in investment operations, a shift toward automation, and a move to the UK shaped the analyst I am becoming.</p>
+            <a href="blog/my-journey.html">Read Post</a>
+          </article>
+        </div>
+
+        <div class="blog-section-cta reveal">
+          <a class="button button-secondary" href="blog.html">Browse All Writing</a>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section reveal">
+        <div class="contact-copy">
+          <p class="eyebrow">Let's Connect</p>
+          <h2>I'm open to analyst roles, internships, collaborations, and thoughtful conversations.</h2>
+          <p>
+            This is the closing section recruiters should remember. Keep it direct, specific, and easy to act on.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:prajjwolpudasaini975@gmail.com">Email Me</a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/prajjwol-pudasaini/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Prajjwol Pudasaini. Built for thoughtful analytics and better opportunities.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

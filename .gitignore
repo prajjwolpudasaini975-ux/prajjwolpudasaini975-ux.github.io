@@ -1,0 +1,6 @@
+# Word source files
+*.docx
+
+# Learning guide
+website-learning-guide.html
+website-learning-guide.pdf
